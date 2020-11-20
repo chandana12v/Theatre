@@ -84,7 +84,9 @@ body{
     color:gold;
     text-decoration: none;
 }
-
+.founderImg {
+    width:90%;
+}
  @-webkit-keyframes rotating /* Safari and Chrome */ {
     from {
       -webkit-transform: rotate(0deg);
@@ -235,7 +237,7 @@ section .section-title {
 
 /* widhts */
 
-.col-xs-12 {width: 100% !important;}
+.col-xs-12 {width: 100% !important; text-align:center;}
 .col-xs-9 {width: 75% !important;}
 .col-xs-8 {width: 66% !important;}
 .col-xs-7 {width: 58.333333% !important;}
@@ -246,13 +248,103 @@ section .section-title {
 
 }
 @media only screen and (max-width: 578px) and (min-width: 480px)  {
-
-}
-@media only screen and (max-width: 479px) and (min-width: 320px)  {
-  .navbar{
-      margin-top:0px;
+    .navbar{
+        margin-top:5px;
+    }
+    .surabhi-theatre {
+        padding: 40px 20px 0px 20px;
+    }
+    .logo-img {
+        width: 100px;
+    margin-right: 6px;
+    }
+    .title{
+        font-size:15px;
+    }
+    .estd{
+        font-size:13px;
+    }
+    .fsize{
+        font-size:11px;
+    }
+    .evenspace {
+        flex-wrap: nowrap;
+    }
+    .rotating {
+        width: 140px;
+        top: 145px;
+        left: 33%;
+    }
+    .elephantImg{
+        width:100px;
+    }
+    .dropdown-toggle::after{
+        float: right;
+        margin-right: 25px;
+    }
+    .social{
+        text-align: center !important;
+    }
+    .fsize{
+      font-size:14px;
+  }
+  .withBl{
+      font-size:20px !important;
+  }
+  .founderImg {
+      width: inherit !important;
+      height: fit-content !important;
   }
 }
+  @media only screen and (max-width: 479px) and (min-width: 360px)  {
+    .navbar{
+        margin-top:5px;
+    }
+    .surabhi-theatre {
+        padding: 40px 20px 0px 20px;
+    }
+    .logo-img {
+        width: 100px;
+    margin-right: 6px;
+    }
+    .title{
+        font-size:15px;
+    }
+    .estd{
+        font-size:13px;
+    }
+    .fsize{
+        font-size:11px;
+    }
+    .evenspace {
+        flex-wrap: nowrap;
+    }
+    .rotating {
+        width: 140px;
+        top: 145px;
+        left: 33%;
+    }
+    .elephantImg{
+        width:100px;
+    }
+    .dropdown-toggle::after{
+        float: right;
+        margin-right: 25px;
+    }
+    .social{
+        text-align: center !important;
+    }
+    .fsize{
+      font-size:14px;
+  }
+  .withBl{
+      font-size:20px !important;
+  }
+  .founderImg {
+      width: inherit !important;
+      height: fit-content !important;
+  }
+} 
 @media only screen and (max-width: 360px) and (min-width: 320px)  {
   .navbar{
       margin-top:5px;
@@ -277,9 +369,9 @@ section .section-title {
       flex-wrap: nowrap;
   }
   .rotating {
-      width: 120px !important;
-      top: 175px !important;
-      left: 30% !important;
+    width: 120px;
+    top: 175px;
+    left: 32%;
   }
   .elephantImg{
       width:100px;
@@ -301,4 +393,5 @@ section .section-title {
     width: inherit !important;
     height: fit-content !important;
 }
+
 }
