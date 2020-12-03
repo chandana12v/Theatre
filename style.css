@@ -59,6 +59,10 @@ body{
 .carousel-container{
     padding-top:10px;
 }
+.about-cont{
+    padding-top:10px;
+    position: relative;
+}
 .carousel{
     position: relative;
 }
@@ -86,6 +90,82 @@ body{
 }
 .founderImg {
     width:90%;
+}
+.abt-text,
+.surabhi-cont
+{
+    border-top: solid 1px #f2b22f;
+    border-right: solid 1px #f2b22f;
+    border-bottom: solid 1px #f2b22f;
+    border-left: solid 1px #f2b22f;
+    overflow: hidden;
+}
+.abt-S{
+    color:gold;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.pd-3{
+    padding:20px;
+}
+.bigline{
+    margin-top:10px;
+}
+.frame-border{
+    background: none repeat scroll 0 0 #411603;
+    border: medium double #bda577 !important;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+.gold-clr{
+    color:gold;
+}
+hr {
+    border-top: 1px solid gold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color: gold;
+    font-size:17px;
+    background-color:mediumorchid;
+}
+/* .bigline{
+    margin-top: -24px;
+    z-index: 99;
+    position: absolute;
+    padding-right: 31px;
+} */
+.readmore{
+    line-height: 3;
+}
+a.readmore{
+    color:gold;
+    font-size:16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+a.readmore:hover{
+    color:gold;
+    text-decoration: none;
+}
+a.surabhi{
+    color:hotpink;
+    font-size:16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+a.surabhi:hover{
+    color:wheat;
+    text-decoration: none;
+
+}
+.list-group-item{
+    background:none !important;
 }
  @-webkit-keyframes rotating /* Safari and Chrome */ {
     from {
@@ -141,7 +221,11 @@ section .section-title {
 }
 #footer {
     background: gold !important;
-    margin-top:50px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
 }
 #footer p{
     margin-bottom:0px !important;
@@ -246,6 +330,12 @@ section .section-title {
 .col-xs-4 {width: 33% !important;}
 .col-xs-3 {width: 25% !important;}
 
+.pd-3{
+    padding:0px;
+}
+.bigline {
+    margin-top: 0px;
+}
 }
 @media only screen and (max-width: 578px) and (min-width: 480px)  {
     .navbar{
